@@ -1,0 +1,199 @@
+
+body
+{
+ width:100%;
+ height: auto;
+ margin: 0;
+ padding: 0;
+ background:url(images/main2.jpg);
+ background-repeat: no-repeat;
+ background-size: cover;
+ overflow-x: hidden; 
+ background-color:black;
+ 
+ 
+}   
+html{
+  width: 100%;
+  height: auto;
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden; 
+}
+
+.Gray_image
+{
+    max-width:100%;
+    width:8em;
+}
+
+
+.Gray_sec_ins
+{
+   /* background-color: #48b6bb7a;*/
+    background-color: #087777a6;
+    color: white;
+    padding-top: 5em;
+    text-align: center;
+    
+   
+}
+.Gray_footer
+{
+    background-color: #000000cc;
+    width:100%;
+    color:white;
+    
+}
+.nav-tabs > li > a.active 
+{
+    color:black;
+    
+}
+  .nav-tabs > li > a {
+    color:white;
+  }
+  .Gray_front
+  {
+    border-radius: 50%;
+    
+  }
+
+  .Gray_fir_ins
+{
+    background-color: #087777a6;
+    color: white;
+    text-align: center;
+    
+    
+}
+.Gray_h1
+{
+    font-family: Graduate-Regular;
+    animation: color-change1 3s infinite;
+    font-size: 7vw;
+    text-decoration: none;
+    display: inline;
+    
+}
+.Gray_h1_2
+{
+    font-family: Graduate-Regular;
+    animation: color-change2 1s infinite;
+    font-size: 7vw;
+    text-decoration: none;
+    display: inline;
+}
+.Gray_p
+{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+    font-size: 1em;
+}
+
+
+
+
+  
+  @keyframes color-change1 {
+    0% { color: orange; }
+    50% { color: orangered; }
+    100% { color: orange; }
+  }
+
+
+
+.Gray_a
+{
+  
+ color:white;
+ font-weight: bold;
+ 
+}
+
+a:hover {
+  color: black;
+}
+
+.Gray_li
+{
+  border-bottom: 1px solid;
+  border-image: linear-gradient(to right,hsl(27, 100%, 50%),#77e6ff);
+  border-image-slice: 1;
+  margin:0;
+  padding:0;
+}
+
+
+.Gray_ul_div
+{
+   margin:0;
+   padding:0;
+}
+
+
+.Gray_ul
+{
+   margin:0;
+   padding:0;
+}
+
+.foot_h
+{
+font-size:80%;    
+}
+.foot_p
+{
+    font-size: 60%;
+}
+.Gray_h6_text
+{
+  text-align: justify;
+  text-justify: inter-word;
+  padding-top: 3em;
+}
+
+.Gray_h6_text_1
+{
+  padding-top: 1em;
+  font-family: PoiretOne-Regular;
+  
+}
+.Gray_h5:hover{
+  color:whitesmoke;
+  font-size: 2em;
+  
+}
+
+
+.Gray_h6_text_1:hover
+{
+  color:yellow;
+  font-size: 2em;
+}
+
+.Gray_h5
+{
+ font-family: Economica-bold;
+}
+.Gray_h6_text_ce
+{
+  
+  padding-top: 3em;
+}
+
+
+
+
+.Gray_front:hover{
+  transform: scale(1.1);
+
+}
+
+.Gray_footer_last
+{
+    background-color: black;
+    width:100%;
+    color:white;
+    
+}

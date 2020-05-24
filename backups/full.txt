@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>ART Agency</title>
+        <link href="bootstrap 4.5/css/bootstrap.min.css" type="text/css" rel="stylesheet">
+        <link href="style.css" type="text/css" rel="stylesheet">
+        <link href="fonts.css" type="text/css" rel="stylesheet">
+    </head>
+    <body>
+        <header>
+           <div class="row">
+             <div class="col-lg-12">
+              
+              <nav class="navbar navbar-expand-lg navbar-dark Gray_nav">
+                <img src="images/art.png" class="img-fluid logo navbar-brand Gray_image"></img>
+                
+
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+              
+                <div class="collapse navbar-collapse pl-sm-0 pl-0 my-lg-0" id="navbarSupportedContent">
+                  <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Download</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Designs</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Gallery</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">About</a>
+                    </li>
+                  </ul>
+                  
+                </div>
+              </nav>
+             </div>
+           </div>
+        </header>
+
+        <div class="container-fluid Gray_section1">
+          <div class="row Gray_sec_ins">
+            <div class="col-md-3">
+              <img src="images/main21.jpg" class="img-fluid Gray_front">
+            </div>
+            <div class="col-md-6 ">
+            <h1>ART AGENCY</h1>
+            <p>“We don't just build websites, we build websites that SELLS”</p>
+            </div>
+            <div class="col-md-3">
+             <p>“Vision is the art of <br> seeing what is invisible to <br> others.”</p>
+            </div>
+          </div>
+        
+         <div class="row Gray_sec_ins">
+           <div class="col-lg-12">
+
+            <ul class="nav nav-tabs" id="myTab" role="tablist">
+              <li class="nav-item" role="presentation">
+                <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">Home</a>
+              </li>
+              <li class="nav-item" role="presentation">
+                <a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false">Profile</a>
+              </li>
+              <li class="nav-item" role="presentation">
+                <a class="nav-link" id="contact-tab" data-toggle="tab" href="#contact" role="tab" aria-controls="contact" aria-selected="false">Contact</a>
+              </li>
+            </ul>
+
+
+            <div class="tab-content" id="myTabContent">
+              <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">hi</div>
+              <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">...</div>
+              <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">...</div>
+            </div>
+
+           </div>
+         </div>
+        </div>
+
+        <footer class="Gray_footer"> 
+          <div class="row">
+       f
+          </div> 
+        </footer>
+
+
+
+      
+        <script src="jquer 3.5.1/jquery-3.5.1.slim.min.js"></script>
+        <script src="bootstrap 4.5/js/bootstrap.min.js"></script>
+        <script src="jquery.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    </body>
+</html>

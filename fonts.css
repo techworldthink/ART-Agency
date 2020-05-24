@@ -1,0 +1,41 @@
+/* Graduate-Regular */
+
+@font-face {
+    font-family: "Graduate-Regular";
+    src: url("fonts/Graduate-Regular.eot");
+    src: url("fonts/Graduate-Regular.eot?#iefix") format('embedded-opentype'),
+         url("fonts/Graduate-Regular.woff2") format('woff2'),
+         url("fonts/Graduate-Regular.woff") format('woff'),
+         url("fonts/Graduate-Regular.ttf") format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+/* Economica-bold */
+
+@font-face {
+    font-family: "Economica-bold";
+    src: url("fonts/Economica-bold.eot");
+    src: url("fonts/Economica-bold.eot?#iefix") format('embedded-opentype'),
+         url("fonts/Economica-bold.woff2") format('woff2'),
+         url("fonts/Economica-bold.woff") format('woff'),
+         url("fonts/Economica-bold.ttf") format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+
+/* PoiretOne-Regular */
+
+@font-face {
+    font-family: "PoiretOne-Regular";
+    src: url("fonts/PoiretOne-Regular.eot");
+    src: url("fonts/PoiretOne-Regular.eot?#iefix") format('embedded-opentype'),
+         url("fonts/PoiretOne-Regular.woff2") format('woff2'),
+         url("fonts/PoiretOne-Regular.woff") format('woff'),
+         url("fonts/PoiretOne-Regular.ttf") format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
